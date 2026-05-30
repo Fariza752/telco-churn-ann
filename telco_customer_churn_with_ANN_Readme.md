@@ -94,6 +94,21 @@ pip install tensorflow scikit-learn pandas numpy matplotlib seaborn
 # 1. Kaggle API key ~/.kaggle/kaggle.json-da olmalıdır
 # 2. Notebooku aç və addım-addım işlət
 jupyter notebook telco_customer_churn_with_ANN.ipynb
+## 📌 Biznes Nəticələri (Insights)
+
+Bu layihədə telekommunikasiya şirkətinin müştəri məlumatları əsasında churn proqnozu aparıldı.
+
+**Əsas tapıntılar:**
+- Uzunmüddətli müqaviləsi olan müştərilər (Two year contract) demək olar ki, heç vaxt çıxmır
+- Aylıq müqaviləli müştərilərin churn riski ən yüksəkdir
+- Fiber optik internet istifadəçiləri daha çox çıxır — bu xidmət keyfiyyəti ilə bağlı ola bilər
+- Yüksək aylıq ödəniş edən müştərilər daha çox churn edir
+- Tenure (müştərinin şirkətdə qalma müddəti) aşağı olduqca churn riski artır — yeni müştərilər daha qeyri-sabitdir
+
+**Model biznesə nə verir:**
+- Model çıxacaq müştərilərin ~82%-ni əvvəlcədən tapır (Recall: 0.82)
+- Şirkət bu müştərilərə xüsusi təkliflər, endirim və ya zəng edərək çıxışın qarşısını ala bilər
+- Hər saxlanılan müştəri yeni müştəri cəlb etməkdən daha ucuzdur
 ```
 
 ---
